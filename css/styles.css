@@ -1,0 +1,103 @@
+/*General styles*/
+
+body {
+    padding: 20px;
+}
+
+h1, h2, h3, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+}
+p{
+    font-size: 10px;
+}
+
+/*middle section of portfolio*/
+.header {
+    text-align: right;
+   }
+.logo {
+    padding-right: 70%;
+}
+.logo-image {
+    height: 220px;
+    width: 220px;
+    padding-top: 50px;
+    float: left;
+}
+.title {
+    width: 80%;
+    height: 20%;
+    flex-grow: inherit;
+}
+.title-name {
+    font-size: 40px;
+    text-align: right;
+    color: #cc99ff;
+}
+.title-description {
+    font-size: 30px;
+    color: #cc99ff;
+    text-align: right;
+    padding: 2%;
+    text-decoration:underline;
+}
+.page-content-header{
+    font-size: 30px;
+    padding-right: 500px;
+    text-align: center;
+}
+.hero-image {
+    padding-left: 70%;
+    padding-top: 30%;
+    margin: auto;
+}
+
+/*featured work items*/
+
+.featured-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.featured-work-item {
+    margin: 30px 30px 30px 0;
+    align-content: center;
+    text-align: center;
+}
+.featured-work-img {
+    align-content: center;
+}
+.featured-ttl, .featured-txt {
+    text-align: center;
+    font-size: 4vw;
+}
+
+@media screen and (min-width: 700px) {
+    .featured-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .featured-work-img {
+        width: 40vw;
+        height: 40vw;
+    } 
+    .page-content-header,.featured-ttl, 
+    .featured-txt {
+        font-size: 7vw;
+    }
+    .title-name, .title-description {
+        font-size: 10vw;
+        text-align: right;
+        padding-right: 0%;
+        padding-left: 70;
+    }
+    .logo-image {
+        width: 40vw;
+        height: 60vw;
+    }
+    .hero-image {
+       width: 200%;
+       height: 500%;
+    }
+}

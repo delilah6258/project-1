@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Delilah's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale= 1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+	<script src="js/main.js"></script>
+ </head>
+ 	<body>
+<!-- This is the section for the title of the portfolio page, incluidng logo, header, 
+and description -->
+	<header class="header">
+		<div class="logo">
+			<img src="images/logo.png" alt="Udacity logo" class="logo-image" 
+			width="50" height="50"/>
+		</div>
+			<h1 class="title-name">Delilah Lynn</h1>
+			<p class="title-description">Brand New Front End Developer</p>
+	
+<!-- This section includes the hero image, donuts, and the featured work 
+item sections -->
+	<main class="page-content">
+		<img src="images/donuts.jpg" alt="hero image" class="hero-image" 
+		width="800" height="600" />
+		<section class= "featured">
+			<h2 class= "page-content-header">Featured Work</h2>
+<!-- a container is used here for the featured work items that will allow me to use 
+flexbox and more optimizations for mobile. 
+This container will allow the featured work items to be displayed neatly on top of 
+one another when in smaller viewports and to 
+have a left to right layout when in larger viewports -->
+		<div class="featured-container">
+		    <div class= "featured-work-item">
+				<img src= "images/breakfast.jpg" alt="featured work image 1" class="featured-work-img" 
+				   width= "200" height="200"/>
+				<h3 class= "featured-ttl">Restaurant Madeline</h3>
+				<p class= "featured-txt"> A in progress sample website for a small breakfast restaurant.
+				<a href= "" class="featured-txt-link">https://www.delilaheatsfood.com/</a> 
+			    </p>
+		    </div>
+			<div class= "featured-work-item">
+				<img src= "images/blog-food.jpg" alt="featured work image 2" class="featured-work-img" 
+				   width ="200" height="200"/>
+				<h3 class= "featured-ttl">Delilah Eats Food</h3>
+				<p class= "featured-txt">My personal blog and chef portfolio, currently under construction. 
+					Hosted by sqaurespace.
+				<a href= "" class="featured-txt-link">https://www.delilaheatsfood.com/</a> 
+				</p>
+			</div>
+			<div class= "featured-work-item">
+				<img src= "images/health-food.jpg" alt="featured work image 3" class="featured-work-img" 
+					width= "200" height="200"/>
+				<h3 class= "featured-ttl">Smoothie Bowl Cafe</h3>
+				<p class= "featured-txt">A personal project for a fictatious company specializig in health and 
+						wellness food.
+				<a href= "" class="featured-txt-link">https://www.delilaheatsfood.com/</a> 
+				</p>
+			</div>
+		</div>
+		</section>
+	</main>
+  </body>
+</html>
